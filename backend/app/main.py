@@ -12,9 +12,15 @@ from app.models.comment import Comment
 
 app = FastAPI(title="Mini Support Desk API")
 
+origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "https://mini-support-desk-app.vercel.app",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.cors_list(),
+    allow_origins=origins,
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
