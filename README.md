@@ -4,8 +4,8 @@ A small full-stack web app to create, view, update, comment on, and delete suppo
 
 ## Live Demo
 
-- Frontend:
-- Backend:
+- Frontend: https://mini-support-desk-app.vercel.app/
+- Backend: https://mini-support-desk-app.onrender.com/docs
 
 ---
 
